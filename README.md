@@ -1,13 +1,11 @@
-# NestJS REST API boilerplate 🇺🇦
+# NestJS REST API boilerplate 🇭🇷
 
-![github action status](https://github.com/brocoders/nestjs-boilerplate/actions/workflows/docker-e2e.yml/badge.svg)
-[![renovate](https://img.shields.io/badge/renovate-enabled-%231A1F6C?logo=renovatebot)](https://app.renovatebot.com/dashboard)
-
+[![NestJS API CI](https://github.com/poliath/nestjs-poliath-boilerplate/actions/workflows/docker-e2e.yml/badge.svg?branch=master)](https://github.com/poliath/nestjs-poliath-boilerplate/actions/workflows/docker-e2e.yml)
 ## Description <!-- omit in toc -->
 
 NestJS REST API boilerplate for typical project
 
-[Full documentation here](https://github.com/brocoders/nestjs-boilerplate/blob/main/docs/readme.md)
+[Full documentation here](https://github.com/poliath/nestjs-poliath-boilerplate/blob/master/docs/readme.md)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -40,7 +38,7 @@ NestJS REST API boilerplate for typical project
 ## Quick run
 
 ```bash
-git clone --depth 1 https://github.com/brocoders/nestjs-boilerplate.git my-app
+git clone --depth 1 https://github.com/poliath/nestjs-poliath-boilerplate.git my-app
 cd my-app/
 cp env-example .env
 docker compose up -d
@@ -55,7 +53,7 @@ docker compose logs
 ## Comfortable development
 
 ```bash
-git clone --depth 1 https://github.com/brocoders/nestjs-boilerplate.git my-app
+git clone --depth 1 https://github.com/poliath/nestjs-poliath-boilerplate.git my-app
 cd my-app/
 cp env-example .env
 ```
@@ -85,10 +83,6 @@ npm run start:dev
 - Swagger: <http://localhost:3000/docs>
 - Adminer (client for DB): <http://localhost:8080>
 - Maildev: <http://localhost:1080>
-
-## Automatic update of dependencies
-
-If you want to automatically update dependencies, you can connect [Renovate](https://github.com/marketplace/renovate) for your project.
 
 ## Database utils
 

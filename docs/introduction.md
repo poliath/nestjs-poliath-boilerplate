@@ -2,7 +2,7 @@
 
 ## Online demo
 
-<https://nestjs-boilerplate-test.herokuapp.com/docs>
+<https://nestjs-boilerplate.poliath.cloud>
 
 ## Features
 
