@@ -10,3 +10,4 @@
 - [Auth](auth.md)
 - [Serialization](serialization.md)
 - [File uploading](file-uploading.md)
+- [Logging](logging.md)

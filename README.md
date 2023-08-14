@@ -3,9 +3,7 @@
 [![NestJS API CI](https://github.com/poliath/nestjs-poliath-boilerplate/actions/workflows/docker-e2e.yml/badge.svg?branch=master)](https://github.com/poliath/nestjs-poliath-boilerplate/actions/workflows/docker-e2e.yml)
 ## Description <!-- omit in toc -->
 
-NestJS REST API boilerplate for typical project
-
-[Full documentation here](https://github.com/poliath/nestjs-poliath-boilerplate/blob/master/docs/readme.md)
+NestJS REST API Boilerplate for Common Projects, Tailored for Seamless Integration with the [refine React boilerplate](https://github.com/poliath/poliath-refine-boilerplate) as frontend. for Frontend. However, this API is versatile enough to function independently and can be paired with various frontends such as React, Angular, Flutter, and more.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -34,6 +32,7 @@ NestJS REST API boilerplate for typical project
 - [x] E2E and units tests.
 - [x] Docker.
 - [x] CI (Github Actions).
+- [x] Logging
 
 ## Quick run
 
@@ -137,3 +136,5 @@ docker compose -f docker-compose.ci.yaml --env-file env-example -p ci up --build
 ```bash
 docker run --rm jordi/ab -n 100 -c 100 -T application/json -H "Authorization: Bearer USER_TOKEN" -v 2 http://<server_ip>:3000/api/v1/users
 ```
+## Detailed documentation
+[Full documentation](https://github.com/poliath/nestjs-poliath-boilerplate/blob/master/docs/readme.md)
