@@ -597,6 +597,17 @@ Backend comes with handy tools for development, such as:
 > Please note that these services should be disabled in production!
 > 
 
+# Running in production
+
+Once you finish your backend logic, you can run it in production using Docker. You should disable above-mentioned development tools.
+
+> Please note that if you were running this boilerplate previously, in order to “catch” latest updates of your code, migrations, etc. You first have to rebuild docker image!
+>
+
+```bash
+docker compose build --no-cache
+```
+
 # Conclusion
 
 Please note that there can be a lot of situations where you will have to edit default code (e.g. change querying methods, update current DTO’s, etc.) But this is a great starting point for any project. 
