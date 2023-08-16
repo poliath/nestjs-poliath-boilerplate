@@ -19,6 +19,7 @@
 - [x] E2E and units tests.
 - [x] Docker.
 - [x] CI (Github Actions).
+- [x] Logging
 
 ---
 

@@ -5,6 +5,9 @@
 
 NestJS REST API Boilerplate for Common Projects, Tailored for Seamless Integration with the [refine React boilerplate](https://github.com/poliath/poliath-refine-boilerplate) as frontend. for Frontend. However, this API is versatile enough to function independently and can be paired with various frontends such as React, Angular, Flutter, and more.
 
+## Detailed Quick start guide
+Detailed quick start guide is available [HERE](./QUICK_START_GUIDE.md)
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Features](#features)
