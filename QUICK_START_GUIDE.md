@@ -608,6 +608,8 @@ Once you finish your backend logic, you can run it in production using Docker. Y
 docker compose build --no-cache
 ```
 
+**Logging is implemented by default and logs are available in the `./logs` directory.**
+
 # Conclusion
 
 Please note that there can be a lot of situations where you will have to edit default code (e.g. change querying methods, update current DTO’s, etc.) But this is a great starting point for any project. 

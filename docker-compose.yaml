@@ -34,5 +34,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - ./logs:/usr/src/app/logs
     ports:
       - ${APP_PORT}:${APP_PORT}
